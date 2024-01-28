@@ -1,6 +1,6 @@
-import torch
-import torch.nn.functional as F
-from torchaudio.transforms import Resample
+import mindtorch.torch as torch
+import mindtorch.torch.nn.functional as F
+from mindtorch.torchaudio.transforms import Resample
 
 from .constants import *  # noqa: F403
 from .model import E2E0
