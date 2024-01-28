@@ -1,7 +1,7 @@
 import json
 import os
 
-import torch
+import mindtorch.torch as torch
 import yaml
 
 
