@@ -1,4 +1,4 @@
-from torch import nn
+from mindtorch.torch import nn
 
 from .constants import *  # noqa: F403
 from .deepunet import DeepUnet, DeepUnet0
