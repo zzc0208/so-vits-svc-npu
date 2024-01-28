@@ -1,5 +1,5 @@
-import torch
-import torch.nn as nn
+import mindtorch.torch as torch
+import mindtorch.torch.nn as nn
 
 from .constants import N_MELS
 
