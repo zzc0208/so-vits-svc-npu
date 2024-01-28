@@ -3,9 +3,9 @@ from functools import partial
 from inspect import isfunction
 
 import numpy as np
-import torch
-import torch.nn.functional as F
-from torch import nn
+import mindtorch.torch as torch
+import mindtorch.torch.nn.functional as F
+from mindtorch.torch import nn
 from tqdm import tqdm
 
 
