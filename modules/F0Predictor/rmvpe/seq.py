@@ -1,4 +1,4 @@
-import torch.nn as nn
+import mindtorch.torch.nn as nn
 
 
 class BiGRU(nn.Module):
