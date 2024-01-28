@@ -1,4 +1,4 @@
-import torch
+import mindtorch.torch as torch
 
 
 class NoiseScheduleVP:
