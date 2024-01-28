@@ -13,8 +13,8 @@ import numpy as np
 
 # import onnxruntime
 import soundfile
-import torch
-import torchaudio
+import mindtorch.torch as torch
+import mindtorch.torchaudio as torchaudio
 
 import cluster
 import utils
