@@ -1,10 +1,10 @@
 import math
 from math import sqrt
 
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-from torch.nn import Mish
+import mindtorch.torch as torch
+import mindtorch.torch.nn as nn
+import mindtorch.torch.nn.functional as F
+from mindtorch.torch.nn import Mish
 
 
 class Conv1d(torch.nn.Conv1d):
