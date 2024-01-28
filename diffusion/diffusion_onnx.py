@@ -4,10 +4,10 @@ from functools import partial
 from inspect import isfunction
 
 import numpy as np
-import torch
-import torch.nn.functional as F
-from torch import nn
-from torch.nn import Conv1d, Mish
+import mindtorch.torch as torch
+import mindtorch.torch.nn.functional as F
+from mindtorch.torch import nn
+from mindtorch.torch.nn import Conv1d, Mish
 from tqdm import tqdm
 
 
