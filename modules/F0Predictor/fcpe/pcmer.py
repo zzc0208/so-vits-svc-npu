@@ -1,11 +1,11 @@
 import math
 from functools import partial
 
-import torch
-import torch.nn.functional as F
+import mindtorch.torch as torch
+import mindtorch.torch.nn.functional as F
 from einops import rearrange, repeat
 from local_attention import LocalAttention
-from torch import nn
+from mindtorch.torch import nn
 
 #import fast_transformers.causal_product.causal_product_cuda
 
