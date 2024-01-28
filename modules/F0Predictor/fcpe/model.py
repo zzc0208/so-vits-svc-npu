@@ -1,9 +1,9 @@
 import numpy as np
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-from torch.nn.utils import weight_norm
-from torchaudio.transforms import Resample
+import mindtorch.torch as torch
+import mindtorch.torch.nn as nn
+import mindtorch.torch.nn.functional as F
+from mindtorch.torch.nn.utils import weight_norm
+from mindtorch.torchaudio.transforms import Resample
 
 from .nvSTFT import STFT
 from .pcmer import PCmer
