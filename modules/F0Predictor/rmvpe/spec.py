@@ -1,6 +1,6 @@
 import numpy as np
-import torch
-import torch.nn.functional as F
+import mindtorch.torch as torch
+import mindtorch.torch.nn.functional as F
 from librosa.filters import mel
 
 
