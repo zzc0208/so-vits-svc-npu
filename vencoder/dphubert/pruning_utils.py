@@ -2,8 +2,8 @@
 
 from typing import Union
 
-import torch
-import torch.nn as nn
+import mindtorch.torch as torch
+import mindtorch.torch.nn as nn
 
 
 def prune_linear_layer(layer: nn.Linear, index: torch.LongTensor, dim: str):
