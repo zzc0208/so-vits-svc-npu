@@ -6,8 +6,6 @@ numpy==1.23.5
 pyworld
 scipy==1.10.0
 SoundFile==0.12.1
-torch
-torchaudio
 torchcrepe
 tqdm
 rich
