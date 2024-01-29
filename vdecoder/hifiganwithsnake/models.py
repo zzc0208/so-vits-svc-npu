@@ -2,11 +2,11 @@ import json
 import os
 
 import numpy as np
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-from torch.nn import AvgPool1d, Conv1d, Conv2d, ConvTranspose1d
-from torch.nn.utils import remove_weight_norm, spectral_norm, weight_norm
+import mindtorch.torch as torch
+import mindtorch.torch.nn as nn
+import mindtorch.torch.nn.functional as F
+from mindtorch.torch.nn import AvgPool1d, Conv1d, Conv2d, ConvTranspose1d
+from mindtorch.torch.nn.utils import remove_weight_norm, spectral_norm, weight_norm
 
 from vdecoder.hifiganwithsnake.alias.act import SnakeAlias
 
