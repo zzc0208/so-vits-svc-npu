@@ -2,8 +2,8 @@ import os
 import random
 
 import numpy as np
-import torch
-import torch.utils.data
+import mindtorch.torch as torch
+import mindtorch.torch.utils.data
 
 import utils
 from modules.mel_processing import spectrogram_torch
