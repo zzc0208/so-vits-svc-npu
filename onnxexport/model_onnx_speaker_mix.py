@@ -1,6 +1,6 @@
-import torch
-from torch import nn
-from torch.nn import functional as F
+import mindtorch.torch as torch
+from mindtorch.torch import nn
+from mindtorch.torch.nn import functional as F
 
 import modules.attentions as attentions
 import modules.commons as commons
