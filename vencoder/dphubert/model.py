@@ -8,10 +8,10 @@ https://github.com/pytorch/audio/blob/main/torchaudio/models/wav2vec2/model.py
 import math
 from typing import List, Optional, Tuple
 
-import torch
-import torch.nn.functional as F
-from torch import Tensor
-from torch.nn import Module
+import mindtorch.torch as torch
+import mindtorch.torch.nn.functional as F
+from mindtorch.torch import Tensor
+from mindtorch.torch.nn import Module
 
 from . import components
 
