@@ -1,8 +1,8 @@
 # Adapted from https://github.com/junjun3518/alias-free-torch under the Apache License 2.0
 #   LICENSE is in incl_licenses directory.
 
-import torch.nn as nn
-from torch.nn import functional as F
+import mindtorch.torch.nn as nn
+from mindtorch.torch.nn import functional as F
 
 from .filter import LowPassFilter1d, kaiser_sinc_filter1d
 
