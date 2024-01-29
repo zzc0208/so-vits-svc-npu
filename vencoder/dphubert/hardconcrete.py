@@ -7,8 +7,8 @@ https://github.com/asappresearch/flop/blob/master/flop/hardconcrete.py
 
 import math
 
-import torch
-import torch.nn as nn
+import mindtorch.torch as torch
+import mindtorch.torch.nn as nn
 
 
 class HardConcrete(nn.Module):
