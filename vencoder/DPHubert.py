@@ -1,4 +1,4 @@
-import torch
+import mindtorch.torch as torch
 
 from vencoder.dphubert.model import wav2vec2_model
 from vencoder.encoder import SpeechEncoder
