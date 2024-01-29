@@ -8,7 +8,7 @@ https://github.com/pytorch/audio/blob/main/torchaudio/models/wav2vec2/utils/impo
 import logging
 from typing import Any, Dict
 
-from torch.nn import Module
+from mindtorch.torch.nn import Module
 
 from ..model import Wav2Vec2Model, wav2vec2_model, wavlm_model
 
