@@ -11,12 +11,10 @@ tqdm
 rich
 loguru
 scikit-maad
-praat-parselmouth
-onnx
-onnxsim
-onnxoptimizer
 fairseq==0.12.2
 librosa==0.9.1
+torch==2.1.0
+torchaudio==2.1.0
 tensorboard
 tensorboardX
 transformers
