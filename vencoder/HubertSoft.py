@@ -1,4 +1,4 @@
-import torch
+import mindtorch.torch as torch
 
 from vencoder.encoder import SpeechEncoder
 from vencoder.hubert import hubert_model
