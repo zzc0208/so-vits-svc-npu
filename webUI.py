@@ -9,14 +9,11 @@ import time
 import traceback
 from itertools import chain
 from pathlib import Path
-
-# os.system("wget -P cvec/ https://huggingface.co/spaces/innnky/nanami/resolve/main/checkpoint_best_legacy_500.pt")
 import gradio as gr
 import librosa
 import numpy as np
 import soundfile
-import torch
-
+import mindtorch.torch as torch
 from compress_model import removeOptimizer
 from edgetts.tts_voices import SUPPORTED_LANGUAGES
 from inference.infer_tool import Svc
