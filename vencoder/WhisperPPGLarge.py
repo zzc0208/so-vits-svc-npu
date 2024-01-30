@@ -1,4 +1,4 @@
-import torch
+import mindtorch.torch as torch
 
 from vencoder.encoder import SpeechEncoder
 from vencoder.whisper.audio import log_mel_spectrogram, pad_or_trim

@@ -6,8 +6,8 @@ import librosa
 import numpy as np
 import parselmouth
 import soundfile
-import torch
-import torchaudio
+import mindtorch.torch as torch
+import mindtorch.torchaudio as torchaudio
 
 import utils
 from inference import slicer

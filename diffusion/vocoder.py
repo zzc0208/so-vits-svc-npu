@@ -1,5 +1,5 @@
-import torch
-from torchaudio.transforms import Resample
+import mindtorch.torch as torch
+from mindtorch.torchaudio.transforms import Resample
 
 from vdecoder.nsf_hifigan.models import load_config, load_model
 from vdecoder.nsf_hifigan.nvSTFT import STFT

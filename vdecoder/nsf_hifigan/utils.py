@@ -3,8 +3,8 @@ import os
 
 import matplotlib
 import matplotlib.pylab as plt
-import torch
-from torch.nn.utils import weight_norm
+import mindtorch.torch as torch
+from mindtorch.torch.nn.utils import weight_norm
 
 matplotlib.use("Agg")
 

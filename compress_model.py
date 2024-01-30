@@ -1,6 +1,6 @@
 from collections import OrderedDict
 
-import torch
+import mindtorch.torch as torch
 
 import utils
 from models import SynthesizerTrn

@@ -1,7 +1,7 @@
 import math
 
-import torch
-from torch.nn import functional as F
+import mindtorch.torch as torch
+from mindtorch.torch.nn import functional as F
 
 
 def slice_pitch_segments(x, ids_str, segment_size=4):

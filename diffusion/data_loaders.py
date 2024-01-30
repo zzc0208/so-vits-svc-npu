@@ -3,8 +3,8 @@ import random
 
 import librosa
 import numpy as np
-import torch
-from torch.utils.data import Dataset
+import mindtorch.torch as torch
+from mindtorch.torch.utils.data import Dataset
 from tqdm import tqdm
 
 from utils import repeat_expand_2d

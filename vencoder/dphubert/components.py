@@ -9,9 +9,9 @@ import math
 from collections import defaultdict
 from typing import List, Optional, Tuple
 
-import torch
-from torch import Tensor, nn
-from torch.nn import Module
+import mindtorch.torch as torch
+from mindtorch.torch import Tensor, nn
+from mindtorch.torch.nn import Module
 
 from .hardconcrete import HardConcrete
 from .pruning_utils import (

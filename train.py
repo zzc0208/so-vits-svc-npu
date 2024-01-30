@@ -4,14 +4,14 @@ import os
 import time
 from rich import progress
 
-import torch
-import torch.distributed as dist
-import torch.multiprocessing as mp
-from torch.cuda.amp import GradScaler, autocast
-from torch.nn import functional as F
-from torch.nn.parallel import DistributedDataParallel as DDP
-from torch.utils.data import DataLoader
-from torch.utils.tensorboard import SummaryWriter
+import mindtorch.torch as torch
+import mindtorch.torch.distributed as dist
+import mindtorch.torch.multiprocessing as mp
+from mindtorch.torch.cuda.amp import GradScaler, autocast
+from mindtorch.torch.nn import functional as F
+from mindtorch.torch.nn.parallel import DistributedDataParallel as DDP
+from mindtorch.torch.utils.data import DataLoader
+from mindtorch.torch.utils.tensorboard import SummaryWriter
 
 import modules.commons as commons
 import utils

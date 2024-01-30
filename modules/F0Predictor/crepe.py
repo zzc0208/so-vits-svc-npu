@@ -5,10 +5,10 @@ try:
 except Exception:
     from typing_extensions import Literal
 import numpy as np
-import torch
+import mindtorch.torch as torch
 import torchcrepe
-from torch import nn
-from torch.nn import functional as F
+from mindtorch.torch import nn
+from mindtorch.torch.nn import functional as F
 
 #from:https://github.com/fishaudio/fish-diffusion
 

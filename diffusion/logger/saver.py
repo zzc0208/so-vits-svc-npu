@@ -7,9 +7,9 @@ import os
 import time
 
 import matplotlib.pyplot as plt
-import torch
+import mindtorch.torch as torch
 import yaml
-from torch.utils.tensorboard import SummaryWriter
+from mindtorch.torch.utils.tensorboard import SummaryWriter
 
 
 class Saver(object):

@@ -3,9 +3,9 @@
 
 import math
 
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
+import mindtorch.torch as torch
+import mindtorch.torch.nn as nn
+import mindtorch.torch.nn.functional as F
 
 if 'sinc' in dir(torch):
     sinc = torch.sinc

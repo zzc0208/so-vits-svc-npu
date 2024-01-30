@@ -12,10 +12,10 @@ import math
 from typing import List, Optional, Tuple
 
 import numpy as np
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-from torch.nn import LayerNorm
+import mindtorch.torch as torch
+import mindtorch.torch.nn as nn
+import mindtorch.torch.nn.functional as F
+from mindtorch.torch.nn import LayerNorm
 
 from vencoder.wavlm.modules import (
     Fp32GroupNorm,

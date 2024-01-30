@@ -2,8 +2,8 @@ import io
 import logging
 
 import soundfile
-import torch
-import torchaudio
+import mindtorch.torch as torch
+import mindtorch.torchaudio as torch
 from flask import Flask, request, send_file
 from flask_cors import CORS
 

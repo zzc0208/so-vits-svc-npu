@@ -2,9 +2,9 @@ import time
 
 import librosa
 import numpy as np
-import torch
-from torch import autocast
-from torch.cuda.amp import GradScaler
+import mindtorch.torch as torch
+from mindtorch.torch import autocast
+from mindtorch.torch.cuda.amp import GradScaler
 
 from diffusion.logger import utils
 from diffusion.logger.saver import Saver

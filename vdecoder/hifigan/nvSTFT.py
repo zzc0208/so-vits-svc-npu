@@ -3,8 +3,8 @@ import os
 import librosa
 import numpy as np
 import soundfile as sf
-import torch
-import torch.utils.data
+import mindtorch.torch as torch
+import mindtorch.torch.utils.data
 from librosa.filters import mel as librosa_mel_fn
 
 os.environ["LRU_CACHE_CAPACITY"] = "3"

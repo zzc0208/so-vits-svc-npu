@@ -1,7 +1,7 @@
 import numpy as np
-import torch
-import torch.nn.functional as F
-from torchaudio.transforms import Resample
+import mindtorch.torch as torch
+import mindtorch.torch.nn.functional as F
+from mindtorch.torchaudio.transforms import Resample
 
 from vdecoder.nsf_hifigan.models import load_model
 from vdecoder.nsf_hifigan.nvSTFT import STFT

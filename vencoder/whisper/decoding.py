@@ -2,10 +2,10 @@ from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Dict, Iterable, List, Optional, Sequence, Tuple, Union
 
 import numpy as np
-import torch
-import torch.nn.functional as F
-from torch import Tensor
-from torch.distributions import Categorical
+import mindtorch.torch as torch
+import mindtorch.torch.nn.functional as F
+from mindtorch.torch import Tensor
+from mindtorch.torch.distributions import Categorical
 
 from .audio import CHUNK_LENGTH
 from .tokenizer import Tokenizer, get_tokenizer

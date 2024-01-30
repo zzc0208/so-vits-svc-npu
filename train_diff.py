@@ -1,6 +1,6 @@
 import argparse
 
-import torch
+import mindtorch.torch as torch
 from loguru import logger
 from torch.optim import lr_scheduler
 

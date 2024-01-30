@@ -9,8 +9,8 @@ from random import shuffle
 
 import librosa
 import numpy as np
-import torch
-import torch.multiprocessing as mp
+import mindtorch.torch as torch
+import mindtorch.torch.multiprocessing as mp
 import logger
 from tqdm import tqdm
 

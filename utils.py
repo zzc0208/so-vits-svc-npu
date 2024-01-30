@@ -8,15 +8,13 @@ import subprocess
 import sys
 import traceback
 from multiprocessing import cpu_count
-
 import faiss
 import librosa
 import numpy as np
-import torch
+import mindtorch.torch as torch
 from scipy.io.wavfile import read
 from sklearn.cluster import MiniBatchKMeans
-from torch.nn import functional as F
-
+from mindtorch.torch.nn import functional as F
 import logger
 
 MATPLOTLIB_FLAG = False

@@ -1,6 +1,6 @@
 import librosa
-import torch
-import torchaudio
+import mindtorch.torch as torch
+import mindtorch.torchaudio as torchaudio
 
 
 class Slicer:

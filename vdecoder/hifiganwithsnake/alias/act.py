@@ -1,12 +1,11 @@
 # Adapted from https://github.com/junjun3518/alias-free-torch under the Apache License 2.0
 #   LICENSE is in incl_licenses directory.
 
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-from torch import pow, sin
-from torch.nn import Parameter
-
+import mindtorch.torch as torch
+import mindtorch.torch.nn as nn
+import mindtorch.torch.nn.functional as F
+from mindtorch.torch import pow, sin
+from mindtorch.torch.nn import Parameter
 from .resample import DownSample1d, UpSample1d
 
 

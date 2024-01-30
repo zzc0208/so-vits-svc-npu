@@ -2,8 +2,8 @@ from time import time
 
 import numpy as np
 import pynvml
-import torch
-from torch.nn.functional import normalize
+import mindtorch.torch as torch
+from mindtorch.torch.nn.functional import normalize
 
 
 # device=torch.device("cuda:0")

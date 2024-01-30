@@ -3,8 +3,8 @@ from functools import reduce
 
 import librosa
 import numpy as np
-import torch
-from torch.nn.modules.module import _addindent
+import mindtorch.torch as torch
+from mindtorch.torch.nn.modules.module import _addindent
 
 from .constants import *  # noqa: F403
 

@@ -1,5 +1,5 @@
 import onnxruntime
-import torch
+import mindtorch.torch as torch
 
 from vencoder.encoder import SpeechEncoder
 

@@ -1,4 +1,4 @@
-import torch
+import mindtorch.torch as torch
 from fairseq import checkpoint_utils
 
 from vencoder.encoder import SpeechEncoder

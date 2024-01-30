@@ -1,4 +1,4 @@
-import torch
+import mindtorch.torch as torch
 
 
 def feature_loss(fmap_r, fmap_g):
