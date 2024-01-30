@@ -3,6 +3,11 @@
 ## 原始readme
 [**English**](./README_sovits.md) | [**中文简体**](./README_zh_CN.md)
 
+### 开机
+
+选择`mindtorch0.2_mindspore2.2.1_torchnpu2.1.0_cann7.0rc1`镜像
+数据集勾选上`so-vits-svc-npu.zip`和你的数据集
+
 ### 解压程序、数据集&安装依赖
 
 ```shell
