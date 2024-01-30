@@ -3,7 +3,7 @@
 ## 原始readme
 [**English**](./README_sovits.md) | [**中文简体**](./README_zh_CN.md)
 
-###解压程序、数据集&安装依赖
+### 解压程序、数据集&安装依赖
 
 ```shell
 su
